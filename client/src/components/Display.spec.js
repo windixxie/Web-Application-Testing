@@ -8,7 +8,7 @@ describe("<Dashboard />", () => {
         const testState = {
             ball: 0,
             strike: 0,
-            foule: 0,
+            foul: 0,
             hit: 0
         };
 
