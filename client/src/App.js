@@ -38,7 +38,7 @@ class App extends Component {
   };
 
   handleFoul = e => {
-    if (this.state.strikes <2) {
+    if (this.state.strikes < 2) {
       this.setState(prevState => {
         return { strikes: prevState.strikes +1 };
       });
